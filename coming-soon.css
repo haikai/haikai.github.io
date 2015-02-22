@@ -22,5 +22,9 @@ html{
 }
 
 body{
-  background: url(http://res.cloudinary.com/haikai/image/upload/v1424648880/logo-haikai_toi80p.png) no-repeat center center;
+  background: url(httphttp://res.cloudinary.com/haikai/image/upload/v1424649049/haikai-300_pxlxri.png) no-repeat center center;
+}
+
+.logo{
+  display: none;
 }
