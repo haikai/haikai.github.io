@@ -1,11 +1,17 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
 html{
-  background: rgba(254,240,238,1);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(254,240,238,1)), color-stop(50%, rgba(250,215,212,1)), color-stop(100%, rgba(250,215,212,1)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
-  background: radial-gradient(ellipse at center, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
+  background-image: rgba(254,240,238,1);
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
+  background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(254,240,238,1)), color-stop(50%, rgba(250,215,212,1)), color-stop(100%, rgba(250,215,212,1)));
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
+  background-image: -o-radial-gradient(center, ellipse cover, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
+  background-image: -ms-radial-gradient(center, ellipse cover, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
+  background-image: radial-gradient(ellipse at center, rgba(254,240,238,1) 0%, rgba(250,215,212,1) 50%, rgba(250,215,212,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef0ee', endColorstr='#fad7d4', GradientType=1 );
   background-size: cover;
   background-repeat: no-repeat;
